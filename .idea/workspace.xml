@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37fa6d3c-1b4d-4fb4-98cf-e9ac996f378d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    <list default="true" id="37fa6d3c-1b4d-4fb4-98cf-e9ac996f378d" name="Default Changelist" comment="finished icons for front page/ added express.js">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevenMeza_Resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Linkedin_rotating_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cash_rotating_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resume_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NewResume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewResume.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/github-logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/github-logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,9 +51,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EJS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -80,7 +97,9 @@
       <workItem from="1628440594375" duration="461000" />
       <workItem from="1629379614092" duration="30000" />
       <workItem from="1629490108117" duration="6577000" />
-      <workItem from="1629685327371" duration="680000" />
+      <workItem from="1629685327371" duration="1962000" />
+      <workItem from="1629745457857" duration="267000" />
+      <workItem from="1629914352252" duration="10442000" />
     </task>
     <task id="LOCAL-00001" summary="Added first row of items onto home page">
       <created>1628141660163</created>
@@ -96,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628409426007</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished icons for front page/ added express.js">
+      <created>1629686050351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629686050352</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added first row of items onto home page" />
     <MESSAGE value="finished contact page - added content to index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished contact page - added content to index.html" />
+    <MESSAGE value="finished icons for front page/ added express.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished icons for front page/ added express.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2610" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628409190959">
@@ -129,22 +156,24 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2627" y="377" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628141315728" />
-    <state x="2505" y="118" key="CommitChangelistDialog2" timestamp="1628409425470">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="585" y="118" key="CommitChangelistDialog2" timestamp="1629927032332">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2505" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628409425470" />
+    <state x="585" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1629927032332" />
+    <state x="2505" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629686049338" />
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1628141705519">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628141705519" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1629564873011">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1629564873011" />
-    <state x="2660" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629379642368" />
-    <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628409352387">
+    <state x="2660" y="276" key="FileChooserDialogImpl" timestamp="1629745726064">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1629564873011" />
+    <state x="2660" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629745726064" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629931372068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1629931372068" />
     <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628409352387" />
   </component>
 </project>

@@ -357,3 +357,47 @@
     color: #9B9B9B !important;
     -webkit-text-fill-color: transparent;
 }
+
+
+/*About page */
+.wrapper-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.about-header{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1em;
+}
+
+.about-text{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1em;
+    line-height: 1.4em;
+
+}
+
+.about-button-text{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+
+.about-button{
+    border: 0;
+    padding: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+
+}
+
+/*Blog page */
+.blog-header{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 4em;
+}

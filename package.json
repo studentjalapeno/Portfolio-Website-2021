@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_website_2021",
+  "version": "1.0.0",
+  "description": "A portfolio website showing all my skills",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "video.js": "^7.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studentjalapeno/Portfolio-Website-2021.git"
+  },
+  "author": "Deven Meza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studentjalapeno/Portfolio-Website-2021/issues"
+  },
+  "homepage": "https://github.com/studentjalapeno/Portfolio-Website-2021#readme"
+}
