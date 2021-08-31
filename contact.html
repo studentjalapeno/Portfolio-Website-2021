@@ -15,49 +15,60 @@
         <div class="stars"></div>
         <div class="contact-content">
             <div class="contact-container">
-                <button id="home-button" class="home-button" onclick="">
-                    <img src="images/spinning-homebutton.gif" alt="Home Button">
-                </button>
-                <div class="contact-navbar">
-                    <h1 class="contact-navbar-text">
-                        <span class="contact-nav-text-extra">CONTACT</span>
-                    </h1>
-                </div>
-                <div class="contact-contact">
-                    <div class="contact-email-container">
-                        <div class="contact-contact-label-container">
-                            <div class="contact-contact-label">
-                                <h1 class="contact-contact-label-text">EMAIL</h1>
+
+                <form action="mailto:dlm291@txstate.edu" method="get">
+                    <button id="home-button" class="home-button" onclick="">
+                        <img src="images/spinning-homebutton.gif" alt="Home Button">
+                    </button>
+                    <div class="contact-navbar">
+                        <h1 class="contact-navbar-text">
+                            <span class="contact-nav-text-extra">CONTACT</span>
+                        </h1>
+                    </div>
+
+                    <div class="contact-contact">
+                        <div class="contact-email-container">
+                            <div class="contact-contact-label-container">
+                                <div class="contact-contact-label">
+                                    <h1 class="contact-contact-label-text">EMAIL</h1>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contact-contact-input-container">
-                            <textarea class="contact-contact-textarea rainbow-text"  placeholder="Email" id="contact-email" style="overflow: hidden; overflow-wrap: break-word; height: 57px;"></textarea>
-                        </div>
-                    </div> <!-- Email -->
-                    <div class="contact-subject-container">
-                        <div class="contact-contact-label-container">
-                            <div class="contact-contact-label">
-                                <h1 class="contact-contact-label-text">SUBJECT</h1>
+                            <div class="contact-contact-input-container">
+                                <label for="contact-email"></label>
+                                <input class="contact-contact-textarea rainbow-text" id="contact-email" placeholder="Email"
+                                       style="overflow: hidden; overflow-wrap: break-word; height: 57px;" type="email" name="contact-email" />
                             </div>
-                        </div>
-                        <div class="contact-contact-input-container">
-                            <textarea class="contact-contact-textarea rainbow-text"  placeholder="Subject" id="contact-subject" style="overflow: hidden; overflow-wrap: break-word; height: 57px;"></textarea>
-                        </div>
-                    </div> <!-- Subject -->
-                    <div class="contact-message-container">
-                        <div class="contact-contact-label-container">
-                            <div class="contact-contact-label">
-                                <h1 class="contact-contact-label-text">MESSAGE</h1>
+                        </div> <!-- Email -->
+                        <div class="contact-subject-container">
+                            <div class="contact-contact-label-container">
+                                <div class="contact-contact-label">
+                                    <h1 class="contact-contact-label-text">SUBJECT</h1>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contact-contact-textarea-container">
-                            <textarea class="contact-contact-textarea rainbow-text"  placeholder="Message" id="contact-message" style="overflow: hidden; overflow-wrap: break-word; height: 130px;"></textarea>
-                        </div>
-                    </div> <!-- Message -->
-                </div>
-                <div class="contact-footer">
-                    <button class="contact-footer-text" id="send-email">SEND</button>
-                </div>
+                            <div class="contact-contact-input-container">
+                                <label for="contact-subject"></label>
+                                <input class="contact-contact-textarea rainbow-text" placeholder="Subject"
+                                       id="contact-subject" name="contact-subject" type="text"
+                                       style="overflow: hidden; overflow-wrap: break-word; height: 57px;"/>
+                            </div>
+                        </div> <!-- Subject -->
+                        <div class="contact-message-container">
+                            <div class="contact-contact-label-container">
+                                <div class="contact-contact-label">
+                                    <h1 class="contact-contact-label-text">MESSAGE</h1>
+                                </div>
+                            </div>
+                            <div class="contact-contact-textarea-container">
+                                <label for="contact-message"></label>
+                                <input type="text" id="contact-message" name="contact-message" class="contact-contact-textarea rainbow-text"
+                                       placeholder="Message" style="overflow: hidden; overflow-wrap: break-word; height: 130px;">
+                            </div>
+                        </div> <!-- Message -->
+                    </div>
+                    <div class="contact-footer">
+                        <input type="submit" name="submit" value="Send" class="contact-footer-text" id="send-email" />
+                    </div>
+                </form>
             </div>
 
         </div>
